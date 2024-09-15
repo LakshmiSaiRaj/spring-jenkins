@@ -13,10 +13,12 @@ public class Demo4Application {
 	@PostConstruct
 	public void init(){
 		logger.info("Application Started........");
+		logger.info(" going good........");
 	}
 
 	public static void main(String[] args) {
 		logger.info("Application executed........");
+		logger.info(" going good 2........");
 		SpringApplication.run(Demo4Application.class, args);
 	}
 
