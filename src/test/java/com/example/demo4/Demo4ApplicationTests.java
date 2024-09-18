@@ -10,7 +10,7 @@ class Demo4ApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(Demo4Application.class);
 	@Test
 	void contextLoads() {
-		logger.info("Test case executings...");
+		logger.info("Test case executingss...");
 	}
 
 }
